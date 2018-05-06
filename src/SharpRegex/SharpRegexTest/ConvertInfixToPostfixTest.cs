@@ -13,6 +13,11 @@ namespace SharpRegexTest
     [TestFixture]
     public class ConvertInfixToPostfixTest
     {
+        [Test]
+        public void ConvertToPostfixTest()
+        {
+            //测试中缀表达式转换为后缀表达式
+        }
         private string ConvertToPostfix(string infixPattern)
         {
             Stack<char> stackOperator = new Stack<char>();

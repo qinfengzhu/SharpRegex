@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="ConvertInfixToPostfixTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegExValidatorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
